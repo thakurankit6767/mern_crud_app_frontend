@@ -36,7 +36,7 @@ const EditUser = () => {
 
     const editUserDetails = async() => {
         const response = await editUser(id, user);
-        navigate('/all');
+        navigate('/');
     }
 
     const onValueChange = (e) => {
